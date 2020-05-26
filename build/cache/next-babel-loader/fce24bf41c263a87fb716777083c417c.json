@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createStore } from 'redux';\nimport ComponentApp from './reducer';\nvar store = createStore(ComponentApp);\nexport default store;","map":null,"metadata":{},"sourceType":"module"}

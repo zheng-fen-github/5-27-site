@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var setLocalstorage = function setLocalstorage(key, value) {\n  localStorage.setItem(key, value);\n};\nexport var setLocalValue = function setLocalValue(query, key) {\n  var Value = localStorage.getItem(key);\n  if (Value) document.querySelector(query).value = Value;\n};","map":null,"metadata":{},"sourceType":"module"}
